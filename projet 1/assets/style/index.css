@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: rgb(36, 36, 36);
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  color: white;
+  padding: 20px;
+}
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header nav h1 {
+  text-transform: capitalize;
+}
+@media screen and (max-width: 550px) {
+  header nav h1 {
+    font-size: 1rem;
+  }
+}
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+  text-transform: capitalize;
+}
+header nav ul li {
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+header nav ul li:hover {
+  color: rgb(0, 225, 255);
+  scale: 1.2;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+header .header-container {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (max-width: 550px) {
+  header .header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+header .header-container .left h1 {
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+@media screen and (max-width: 550px) {
+  header .header-container .left h1 {
+    font-size: 2rem;
+  }
+}
+header .header-container .left h2 {
+  color: rgb(69, 69, 252);
+  margin: 20px 0 10px 0;
+}
+@media screen and (max-width: 550px) {
+  header .header-container .left h2 {
+    font-size: 1rem;
+  }
+}
+header .header-container .right img {
+  width: 100%;
+}
+@media screen and (max-width: 550px) {
+  header .header-container .right img {
+    width: 50%;
+    margin-top: 30px;
+  }
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  height: 200px;
+}
+@media screen and (max-width: 600px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 350px;
+  }
+}
+footer h3 {
+  text-transform: capitalize;
+}
+@media screen and (max-width: 600px) {
+  footer h3 {
+    text-align: center;
+  }
+}
+footer .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .left button {
+  background: rgb(69, 69, 252);
+  padding: 10px 30px;
+  color: white;
+  border-radius: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  footer .left button {
+    width: 200px;
+    margin-top: 15px;
+  }
+}
+footer .left button:hover {
+  scale: 1.03;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+footer .right {
+  width: 67%;
+}
+footer .right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+}
+footer .right ul img {
+  height: 40px;
+}
+@media screen and (max-width: 600px) {
+  footer .right ul img {
+    margin-bottom: 30px;
+    height: 30px;
+  }
+}/*# sourceMappingURL=index.css.map */
